@@ -209,7 +209,7 @@ footer:
   owner:
     enable: true
     since: 2024
-  custom_text:CMSZ001的网站
+  custom_text: CMSZ001的网站
   copyright: true # Copyright of theme and framework
 
 # aside (側邊欄)
