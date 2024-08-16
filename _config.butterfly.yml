@@ -35,7 +35,6 @@ code_word_wrap: false
 social:
   fab fa-github: https://github.com/CMSZ001 || Github || '#24292e'
   fas fa-envelope: mailto:hi@cmsz.us.kg || Email || '#4a7dbe'
-  fa-solid fa-rss: /rss.xml
 
 # Image (圖片設置)
 # --------------------------------------
@@ -323,8 +322,8 @@ darkmode:
   # autoChangeMode: false
   autoChangeMode: 2
   # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
-  start: 7
-  end: 19
+  start: 6
+  end: 18
 
 # show scroll percent in scroll-to-top button
 rightside_scroll_percent: true
@@ -333,7 +332,7 @@ rightside_scroll_percent: true
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
 # Don't repeat 不要重複
 rightside_item_order:
-  enable: false
+  enable: true
   hide: # readmode,translate,darkmode,hideAside
   show: # toc,chat,comment
 
@@ -391,7 +390,7 @@ docsearch:
 # https://github.com/overtrue/share.js
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  sites: wechat,weibo,qq
 
 # AddToAny
 # https://www.addtoany.com/
@@ -713,7 +712,7 @@ clickShowText:
     - Are you ok?
   fontSize: 15px
   random: false
-  mobile: false
+  mobile: true
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark

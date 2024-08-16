@@ -35,7 +35,6 @@ code_word_wrap: false
 social:
   fab fa-github: https://github.com/CMSZ001 || Github || '#24292e'
   fas fa-envelope: mailto:hi@cmsz.us.kg || Email || '#4a7dbe'
-  fa-solid fa-rss: /rss.xml
 
 # Image (圖片設置)
 # --------------------------------------
@@ -209,7 +208,7 @@ footer:
   owner:
     enable: true
     since: 2024
-  custom_text:CMSZ001的网站
+  custom_text: CMSZ001的网站
   copyright: true # Copyright of theme and framework
 
 # aside (側邊欄)
@@ -323,8 +322,8 @@ darkmode:
   # autoChangeMode: false
   autoChangeMode: 2
   # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
-  start: 7
-  end: 19
+  start: 6
+  end: 18
 
 # show scroll percent in scroll-to-top button
 rightside_scroll_percent: true
@@ -333,7 +332,7 @@ rightside_scroll_percent: true
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
 # Don't repeat 不要重複
 rightside_item_order:
-  enable: false
+  enable: true
   hide: # readmode,translate,darkmode,hideAside
   show: # toc,chat,comment
 
@@ -354,15 +353,6 @@ katex:
   enable: false
   per_page: false
   hide_scrollbar: true
-
-# mermaid
-# see https://github.com/mermaid-js/mermaid
-mermaid:
-  enable: true
-  # built-in themes: default/forest/dark/neutral
-  theme:
-    light: default
-    dark: dark
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -400,7 +390,7 @@ docsearch:
 # https://github.com/overtrue/share.js
 sharejs:
   enable: true
-  sites: facebook,twitter,wechat,weibo,qq
+  sites: wechat,weibo,qq
 
 # AddToAny
 # https://www.addtoany.com/
@@ -722,7 +712,7 @@ clickShowText:
     - Are you ok?
   fontSize: 15px
   random: false
-  mobile: false
+  mobile: true
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark
@@ -765,11 +755,11 @@ subtitle:
   typed_option:
   # source 調用第三方服務
   # source: false 關閉調用
-  source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
+  # source: 1  調用一言網的一句話（簡體） https://hitokoto.cn/
   # source: 2  調用一句網（簡體） https://yijuzhan.com/
   # source: 3  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: 1
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
 
@@ -786,7 +776,7 @@ preloader:
 # wordcount (字數統計)
 # see https://butterfly.js.org/posts/ceeb73f/#字數統計
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -982,7 +972,15 @@ CDN:
     # main_css:
     # mathjax:
     # medium_zoom:
-    # mermaid:
+    # mermaid
+    # see https://github.com/mermaid-js/mermaid
+    mermaid:
+      enable: true
+      # built-in themes: default/forest/dark/neutral
+      theme:
+        light: default
+        dark: dark
+
     # meting_js:
     # pangu:
     # prismjs_autoloader:
