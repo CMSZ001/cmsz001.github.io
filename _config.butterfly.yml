@@ -332,7 +332,7 @@ rightside_scroll_percent: true
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
 # Don't repeat 不要重複
 rightside_item_order:
-  enable: true
+  enable: false
   hide: # readmode,translate,darkmode,hideAside
   show: # toc,chat,comment
 
