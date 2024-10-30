@@ -296,7 +296,7 @@ lazyload:
 # ---------------------------------------------------------------------------------------
 cdn:
   enable: false       # Option values: true | false
-  provider: cdnjs     # Option values: cdnjs | jsdelivr | unpkg
+  provider: unpkg     # Option values: cdnjs | jsdelivr | unpkg
 
 
 # ---------------------------------------------------------------------------------------
