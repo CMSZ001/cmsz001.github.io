@@ -55,7 +55,7 @@ first_screen:
   background_img: /images/bg.svg
 
   # First screen background image in dark mode, You can use local image path or image link
-  background_img_dark: /images/bg.svg
+  background_img_dark: https://keep.xpoet.cn/images/bg2.svg
 
   # First screen description
   # You can use the "||" to begin a newline, maximum is two lines.
