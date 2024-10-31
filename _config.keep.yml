@@ -62,14 +62,14 @@ first_screen:
   description: Keep writing and Keep loving.
 
   # If enable hitokoto, first screen description is different every time when you enter the website
-  hitokoto: false      # Option values: true | false
+  hitokoto: true      # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/social_contact.html
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false      # Option values: true | false
+  enable: true      # Option values: true | false
   links:
     # Fill in your social platform links here, e.g. `github: https://github.com/XPoet`
     # If you want to click open the picture, you need to add a prefix `img | `,
@@ -83,7 +83,7 @@ social_contact:
     twitter:         # Twitter
     x:               # X
     facebook:        # Facebook
-    email:           # Email
+    email: CMSZ@cmsz.us.kg          # Email
 
 
 # ---------------------------------------------------------------------------------------
@@ -91,10 +91,10 @@ social_contact:
 # ---------------------------------------------------------------------------------------
 scroll:
   # Show progress bar in top when page scroll
-  progress_bar: false  # Option values: true | false
+  progress_bar: true  # Option values: true | false
 
   # Show percent when page scroll
-  percent: false       # Option values: true | false
+  percent: true       # Option values: true | false
 
   # Hide header in top when page scroll
   hide_header: true    # Option values: true | false
