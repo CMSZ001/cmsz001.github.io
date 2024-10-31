@@ -108,7 +108,7 @@ home:
   announcement:
 
   # Show category in home page post block
-  category: false           # Option values: true | false
+  category: true           # Option values: true | false
 
   # Show tags in home page post block
   tag: false                # Option values: true | false
