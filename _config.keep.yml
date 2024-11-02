@@ -111,7 +111,7 @@ home:
   category: true           # Option values: true | false
 
   # Show tags in home page post block
-  tag: false                # Option values: true | false
+  tag: true                # Option values: true | false
 
   # Set the datetime type of home page post block
   post_datetime: updated    # Option values: updated | created
@@ -136,17 +136,17 @@ post:
   # Depend on Hexo Plugin: hexo-wordcount (`npm install hexo-wordcount`)
   # See: https://github.com/willin/hexo-wordcount
   word_count:
-    wordcount: false     # Word count, one post. Option values: true | false
-    min2read: false      # Time to read, one post. Option values: true | false
+    wordcount: true     # Word count, one post. Option values: true | false
+    min2read: true      # Time to read, one post. Option values: true | false
 
   # Post datetime
   datetime_format: "YYYY-MM-DD HH:mm:ss"  # Datetime format. e.g. "YYYY-MM-DD HH:mm:ss"
 
   # Post copyright info
-  copyright_info: false  # Option values: true | false
+  copyright_info: true  # Option values: true | false
 
   # Post share
-  share: false           # Option values: true | false
+  share: true           # Option values: true | false
 
   # Reward author
   reward:
@@ -162,19 +162,19 @@ post:
 code_block:
   # Toolbar include: "code copy", "code block collapse" and "code language"
   tools:
-    enable: false            # Option values: true | false
-    style: default           # Option values: default | mac
-  highlight_theme: default   # Option values: default | obsidian
+    enable: true            # Option values: true | false
+    style: mac           # Option values: default | mac
+  highlight_theme: obsidian   # Option values: default | obsidian
 
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/toc.html
 # ---------------------------------------------------------------------------------------
 toc:
-  enable: false      # Option values: true | false
+  enable: true      # Option values: true | false
 
   # Automatically add list number to toc
-  number: false      # Option values: true | false
+  number: true      # Option values: true | false
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false  # Option values: true | false
@@ -193,10 +193,10 @@ website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: false     # Option values: true | false
-    site_uv: false    # Option values: true | false
-    site_pv: false    # Option values: true | false
-    page_pv: false    # Option values: true | false
+    enable: true     # Option values: true | false
+    site_uv: true    # Option values: true | false
+    site_pv: true    # Option values: true | false
+    page_pv: true    # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
@@ -205,8 +205,8 @@ website_count:
 # See: https://github.com/theme-next/hexo-generator-searchdb
 # ---------------------------------------------------------------------------------------
 local_search:
-  enable: false   # Option values: true | false
-  preload: false  # Preload the search data when the page loads. Option values: true | false
+  enable: true   # Option values: true | false
+  preload: true  # Preload the search data when the page loads. Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
@@ -257,11 +257,11 @@ comment:
   #      https://giscus.app
   # Please generate your configuration items in https://giscus.app
   giscus:
-    repo:
-    repo_id:
+    repo: CMSZ001/cmsz001.github.io
+    repo_id: R_kgDOMiVYyg
     category: Announcements    # Recommend use Announcements
-    category_id:
-    reactions_enabled: false   # Option values: true | false
+    category_id: DIC_kwDOMiVYys4Cj6Kc
+    reactions_enabled: true   # Option values: true | false
 
   # Artalk
   # See: https://github.com/ArtalkJS/Artalk
@@ -281,21 +281,21 @@ comment:
 # See: https://github.com/hexojs/hexo-generator-feed
 # ---------------------------------------------------------------------------------------
 rss:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/lazyload.html
 # ---------------------------------------------------------------------------------------
 lazyload:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/cdn.html
 # ---------------------------------------------------------------------------------------
 cdn:
-  enable: false       # Option values: true | false
+  enable: true       # Option values: true | false
   provider: unpkg     # Option values: cdnjs | jsdelivr | unpkg
 
 
@@ -303,20 +303,20 @@ cdn:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/pjax.html
 # ---------------------------------------------------------------------------------------
 pjax:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/footer.html
 # ---------------------------------------------------------------------------------------
 footer:
-  since: 2020            # The starting year of your website, Can be null
-  word_count: false      # Option values: true | false
+  since: 2024            # The starting year of your website, Can be null
+  word_count: true      # Option values: true | false
 
   site_deploy:
-    enable: false        # Option values: true | false
+    enable: true        # Option values: true | false
     provider: github     # Option values: github | vercel | netlify | cloudflare | gitee | aliyun | tencent_cloud | upyun
-    url:                 # Your deployment provider url, Can be null
+    url: https://github.com/CMSZ001/cmsz001.github.io                # Your deployment provider url, Can be null
 
   record:
     enable: false        # Option values: true | false

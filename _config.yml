@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: CMSZ的网站
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: cn
+author: CMSZ
+language: zh-CN
 timezone: ''
 
 # URL
@@ -45,12 +45,14 @@ relative_link: false
 future: true
 syntax_highlighter: highlight.js
 highlight:
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
+  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -102,3 +104,16 @@ theme: keep
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
+
+# Feed Atom
+# npm install hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
