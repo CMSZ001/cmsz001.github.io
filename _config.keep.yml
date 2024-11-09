@@ -214,7 +214,7 @@ local_search:
 # ---------------------------------------------------------------------------------------
 comment:
   enable: true   # Option values: true | false
-  use: valine     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
+  use: giscus     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
 
   # Valine
   # See: https://github.com/xCss/Valine
