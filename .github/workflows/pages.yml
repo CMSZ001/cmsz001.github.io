@@ -24,6 +24,4 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         # The repository the action should deploy to
-        PUBLISH_REPOSITORY: CMSZ001/cmsz001.github.io
-
-        CNAME: cmsz.us.kg
+        PUBLISH_REPOSITORY: CMSZ001/Website-hexo
