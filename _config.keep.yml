@@ -316,7 +316,7 @@ footer:
   site_deploy:
     enable: true        # Option values: true | false
     provider: github     # Option values: github | vercel | netlify | cloudflare | gitee | aliyun | tencent_cloud | upyun
-    url: https://github.com/CMSZ001/cmsz001.github.io                # Your deployment provider url, Can be null
+    url: https://github.com/CMSZ001/Website-hexo                # Your deployment provider url, Can be null
 
   record:
     enable: false        # Option values: true | false
