@@ -257,7 +257,7 @@ comment:
   #      https://giscus.app
   # Please generate your configuration items in https://giscus.app
   giscus:
-    repo: CMSZ001/cmsz001.github.io
+    repo: CMSZ001/Website-hexo
     repo_id: R_kgDOMiVYyg
     category: Announcements    # Recommend use Announcements
     category_id: DIC_kwDOMiVYys4Cj6Kc
