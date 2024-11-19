@@ -8,7 +8,9 @@ subtitle: ''
 description: ''
 keywords:
 author: CMSZ
-language: zh-CN
+language: 
+- zh-CN
+- en
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -16,9 +18,10 @@ timezone: 'Asia/Shanghai'
 url: https://cmsz.us.kg
 permalink: :title/
 permalink_defaults:
+  lang: zh-CN
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: false # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
