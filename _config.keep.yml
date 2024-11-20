@@ -213,7 +213,7 @@ local_search:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/comment.html
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: true   # Option values: true | false
+  enable: fales   # Option values: true | false
   use: giscus     # Option values: valine | gitalk | twikoo | waline | giscus | artalk | disqus
 
   # Valine
