@@ -4,4 +4,4 @@ lang: zh-CN
 sticky: 9999
 ---
 # 下载Termux-app #
-[![get-it-on-github](https://termux.dev/assets/globals/hosts/get-it-on-github.png)](https://github.com/termux/termux-app/releases/latest)
+<a href="https://github.com/termux/termux-app#github"><img alt="Get it on Github" src="https://termux.dev/assets/globals/hosts/get-it-on-github.png" width="215" height="83"></a>
