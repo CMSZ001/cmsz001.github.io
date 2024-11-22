@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CMSZ的网站</title>
+  
+  
+  <link href="https://cmsz.us.kg/atom.xml" rel="self"/>
+  
+  <link href="https://cmsz.us.kg/"/>
+  <updated>2024-11-20T13:30:14.000Z</updated>
+  <id>https://cmsz.us.kg/</id>
+  
+  <author>
+    <name>CMSZ</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://cmsz.us.kg/hello-world/"/>
+    <id>https://cmsz.us.kg/hello-world/</id>
+    <published>2024-11-22T04:08:28.371Z</published>
+    <updated>2024-11-20T13:30:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo<i class="fas fa-external-link-alt"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation<i class="fas fa-external-link-alt"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting<i class="fas fa-external-link-alt"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub<i class="fas fa-external-link-alt"></i></a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/writing.html" >Writing<i class="fas fa-external-link-alt"></i></a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/server.html" >Server<i class="fas fa-external-link-alt"></i></a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/generating.html" >Generating<i class="fas fa-external-link-alt"></i></a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment<i class="fas fa-external-link-alt"></i></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a class=&quot;link&quot;   href=&quot;https://hexo.io/&quot; &gt;Hexo&lt;i class=&quot;fas fa-external-link-alt&quot;&gt;&lt;/i&gt;&lt;/a&gt;! This is your very first post. Che</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>怎么使用Termux-app</title>
+    <link href="https://cmsz.us.kg/termux/"/>
+    <id>https://cmsz.us.kg/termux/</id>
+    <published>2024-11-22T04:08:28.371Z</published>
+    <updated>2024-11-22T04:06:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="下载Termux-app"><a href="#下载Termux-app" class="headerlink" title="下载Termux-app"></a>下载Termux-app</h1><p><a href="https://github.com/termux/termux-app/releases/latest"><strong>Github Releases</strong></a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;下载Termux-app&quot;&gt;&lt;a href=&quot;#下载Termux-app&quot; class=&quot;headerlink&quot; title=&quot;下载Termux-app&quot;&gt;&lt;/a&gt;下载Termux-app&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/te</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
