@@ -4,9 +4,4 @@ lang: zh-CN
 sticky: 9999
 ---
 # 下载Termux-app #
-<div class="badges">
-    <a href="https://github.com/termux/termux-app/releases/latest">
-      <img alt="Get it on Github" src="https://termux.dev/assets/globals/hosts/get-it-on-github.png" width="215" height="83"></a>
-    <a href="https://github.com/termux/termux-app#f-droid">
-      <img alt="Get it on F-Droid" src="https://termux.dev/assets/globals/hosts/get-it-on-fdroid.png" width="215" height="83"></a>
-  </div>
+[**Github Releases**](https://github.com/termux/termux-app/releases/latest)
